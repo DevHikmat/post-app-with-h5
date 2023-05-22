@@ -118,6 +118,10 @@ const Home = () => {
       </aside>
       <article>
         <Navbar />
+        <h3>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id,
+          provident?
+        </h3>
         <div className="row gap-4 py-4">
           {posts &&
             posts.map((item, index) => {
